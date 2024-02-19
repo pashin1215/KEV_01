@@ -640,10 +640,13 @@ hr {
 
 
 @media (max-width: 355px) {
-
     .nav {
         font-size: 8px;
     }
+}
 
-
+@media (max-width: 320px) {
+    .nav {
+        font-size: 7px;
+    }
 }
