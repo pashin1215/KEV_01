@@ -27,9 +27,9 @@ hr {
 }
 
 /* Page */
-.page {
+/* .page {
     overflow: hidden;
-}
+} */
 
 
 /* Container */
@@ -137,11 +137,16 @@ hr {
 .header__inner{
     margin-top: 55px;
     display: flex;
-    align-items: center;
+    
     justify-content: space-between;
 
     padding-bottom: 10px;
     border-bottom: 3px solid #ccc;
+}
+
+.header__banner{
+    align-items: center;
+    display: flex; 
 }
 
 .header__logo{
@@ -159,15 +164,10 @@ hr {
 
 .header__icons {
     margin-right: 10px;
-    position: relative;
+    /*position: relative;*/
     left: 0;
     bottom: 5px;
     height: 50px;
-}
-
-.header__banner{
-    align-items: center;
-    display: flex; 
 }
 
 
@@ -327,6 +327,21 @@ hr {
     text-decoration-style: double;
 }
 
+.footer__text1 {
+    margin-top: 50px;
+    font-size: 35px;
+    color: #000000;
+    font-weight: 900;
+    text-align: center;
+}
+
+.footer__text2 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 600;
+    text-align: justify;
+}
 
 /* Copyright */
 .copyright {
@@ -344,3 +359,233 @@ hr {
     right: 0;
     bottom: 0;
 }
+
+
+@media (max-width: 1230px) {
+    .section {
+        padding: 65px 10px 30px;
+    }
+
+    .nav {
+        padding: 10px 105px;
+    }
+
+    .intro__inner {
+        margin-top: 58px;
+        
+    }
+    .intro__text1 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .intro__text2 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .header__logo {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .section__header {
+        margin: 0 auto 30px;
+    }
+
+    .section__text p {
+        font-size: 27px;
+    }
+
+    .section__title {
+        font-size: 43px;
+        font-weight: 600;
+    }
+
+    .section__title:after{
+        margin: 20px auto;
+    }
+
+    .copyright {
+        max-width: 1090px;
+    }
+}
+
+
+@media (max-width: 1025px) {
+        
+    .intro {
+        min-height: 765px;
+    }
+
+    .intro__inner {
+        margin-top: 95px;
+    }
+
+    .intro__text1 {
+        font-size: 19px;
+        font-weight: 600;
+    }
+
+    .intro__text2 {
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    .header__logo {
+        font-size: 19px;
+        font-weight: 700;
+    }
+
+    .copyright {
+        max-width: 990px;
+    }
+
+    .footer {
+        min-height: 765px;
+    }
+
+    .footer__text {
+        font-size: 19px;
+    }
+
+    .footer__text1 {
+        margin-top: 30px;
+        font-size: 30px;
+    }
+
+    .footer__text2 {
+        font-size: 19px;
+    }
+
+}
+
+
+@media (max-width: 770px) {
+
+    .nav {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .header__icons{
+        height: 30px;
+    }
+
+    .header__logo {
+        font-size: 10px;
+    }
+
+    .header__logoplace {
+        font-size: 8px;
+
+    }
+
+}
+
+@media (max-width: 420px) {
+
+    .nav {
+        padding: 8px;
+        font-size: 10px;
+    }
+
+    
+    .intro__inner {
+        margin-top: 0px;
+    }
+
+
+    .intro__text1 {
+        font-size: 12px;
+    }
+
+    .intro__text2 {
+        font-size: 11px;
+    }
+
+    .header__inner {
+        align-items: center;
+        margin-top: 40px;
+
+        border-bottom: 2px solid #ccc;
+    }
+
+    .header__icons{
+        margin-right: 5px;
+        height: 20px;
+    }
+
+    .header__logo {
+        font-size: 8px;
+        margin: 0;
+    }
+
+    .header__logoplace {
+        font-size: 6px;
+
+    }
+
+    .section {
+        padding: 40px 10px 30px;
+    }
+
+    .section__header {
+        margin: 0 auto 19px;
+    }
+
+    .section__title {
+        font-size: 22px;
+    }
+
+    .section__title:after {
+        height: 2px;
+        margin: 12px auto;
+    }
+
+    .section__text p {
+        font-size: 18px;
+    }
+    .section__text1 {
+        font-size: 12px;
+    }
+
+    .section__text1--border {
+        border-bottom: 2px solid #0306bd;
+    }
+
+
+    .footer {
+        padding: 40px 10px 30px;
+        min-height: 736px;
+    }
+
+    .footer__text {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .footer__text1 {
+        margin-top: 25px;
+        font-size: 20px;
+    }
+
+    .footer__text2 {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .copyright {
+        font-size: 6px;
+        max-width: 385px;
+        padding: 10px 0;
+
+    }
+
+}
+
+@media (max-width: 420px) {
+    /**/
+}
+
+
