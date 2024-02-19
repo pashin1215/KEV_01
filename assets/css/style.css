@@ -490,6 +490,10 @@ hr {
         font-size: 10px;
     }
 
+    .nav__link:after {
+        height: 2px;
+    }
+
     
     .intro__inner {
         margin-top: 0px;
@@ -584,8 +588,50 @@ hr {
 
 }
 
-@media (max-width: 420px) {
-    /**/
+@media (max-width: 376px) {
+    
+    .nav {
+        padding: 7px;
+        font-size: 9px;
+    }
+
+    .nav__link {
+        margin: 0 7px;
+    }
+
+    .header__logo {
+        font-size: 7px;
+    }
+
+    .intro {
+        min-height: 670px;
+    }
+
+    .intro__inner {
+        margin-top: 45px;
+    }
+
+    .intro__text2 {
+        font-size: 10px;
+        margin-top: 15px;
+    }
+
+    .footer {
+        min-height: 670px;
+    }
+
+    .footer__text {
+        font-size: 13px;
+    }
+
+    .copyright {
+        font-size: 5px;
+        max-width: 345px;
+    }
+
+
+
+
 }
 
 
