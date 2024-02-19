@@ -636,10 +636,14 @@ hr {
         font-size: 5px;
         max-width: 345px;
     }
-
-
-
-
 }
 
 
+@media (max-width: 355px) {
+
+    .nav {
+        font-size: 8px;
+    }
+
+
+}
